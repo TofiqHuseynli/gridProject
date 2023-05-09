@@ -1,0 +1,56 @@
+body,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ============= Gallery =============  */
+
+.gallery{
+    max-width: auto;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 15px;
+}
+
+.card{
+    width: 100%;
+    box-shadow: 0.5px 0.5px 5px  rgb(130, 133, 130);
+    transition: 0.3s ease;
+    
+    
+}
+
+.card img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 5px  rgb(31, 190, 57);
+
+}
+
+/* ============= Footer =============  */
+
+footer{
+    width: auto;
+    height: 70px;
+    background-color: #354BB1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+footer span{
+    color: white;
+    font-size: 20px;
+}
+
